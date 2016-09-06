@@ -1,0 +1,2743 @@
+query,result,section,set,relevance
+list file,ls,1,base,5
+list file,sockstat,1,base,4
+list file,git-ls-files,1,pkg,5
+list file,file,1,base,2
+list file,file,n,base,1
+list file,ntp.keys,5,base,0
+list file,ntp.conf,5,base,0
+sig,signal,3,base,5
+sig,signal,7,base,5
+sig,sigrelse,3,base,3
+sig,sighold,3,base,3
+sig,raise,3,base,4
+test,tests,7,base,5
+test,test,1,base,5
+test,atf-test-case,4,base,4
+test,atf-test-program,1,base,4
+test,wire-test,8,base,2
+npf,npf,7,base,5
+npf,npf.conf,5,base,4
+npf,libnpf,3,base,4
+npf,npfctl,8,base,4
+npf,makedev,8,base,0
+rump,rump,7,base,5
+rump,rump.halt,1,base,3
+rump,rump.dhcpclient,1,base,2
+rump,rumpclient,3,base,4
+rump,librump,3,base,4
+rump,rump_server,1,base,3
+rump,rumpfs,4,base,3
+ls,ls,1,base,5
+ls,mktexlsr,1,pkg,0
+ls,git-ls-files,1,pkg,4
+ls,nslookup,8,base,0
+ls,FcLangSetHasLang,3,pkg,0
+ls,FcLangSetCopy,3,pkg,0
+ls,FcLangSetHash,3,pkg,0
+ls,chflags,1,base,2
+ls,getbsize,3,base,1
+ls,column,1,base,2
+chkdsk,mkisofs,8,base,5
+iic,iic,4,base,5
+iic,i2cscan,8,base,4
+iic,alipm,4,base,4
+iic,ichsmb,4,base,4
+iic,alpha/tsciic,4,base,4
+iic,acpiec,4,base,1
+iic,iic,9,base,5
+route,route,8,base,5
+route,routed,8,base,5
+route,route,4,base,5
+route,route.conf,5,base,5
+route,multicase,4,base,5
+route,route6d,8,base,4
+route,rt_timer,9,base,3
+route,gcc,1,base,0
+route,csh,1,base,0
+route,ldpd,8,base,0
+route,arp,4,base,2
+route,netstat,1,base,3
+route,tr,4,base,0
+kernel,kthread_create,9,base,3
+kernel,librump,3,base,2
+kernel,kvm,3,base,4
+kernel,lockstat,8,base,3
+kernel,kloader,4,base,3
+kernel,lock,9,base,4
+kernel,module,7,base,4
+kernel,rump_server,1,base,2
+kernel,knote,9,base,4
+kernel,ddb,4,base,4
+kernel,module,9,base,4
+kernel,kauth,9,base,4
+kernel,rumpfs,4,base,2
+kernel,config,5,base,4
+kernel,nsmp,4,base,1
+kernel,intro,9,base,5
+kernel,luactl,8,base,2
+config,config,1,base,5
+config,config,9,base,5
+config,config,5,base,5
+config,atf-config,1,base,3
+config,git-config,1,pkg,1
+config,krb5-config,1,base,1
+config,config.samples,5,base,4
+config,route.conf,5,base,3
+config,modules.conf,5,base,3
+lwp,_lwp_create,2,base,5
+lwp,_lwp_exit,2,base,5
+lwp,_lwp_park,2,base,4
+lwp,_lwp_makecontext,2,base,4
+lwp,_lwp_kill,2,base,5
+lwp,kpreempt,9,base,2
+lwp,_lwp_getprivate,2,base,4
+lwp,rumpuser,3,base,0
+lwp,AS,1,base,0
+lwp,gcc,1,base,0
+lwp,curproc,9,base,3
+lwp,kpause,9,base,3
+lwp,_lwp_unpark,2,base,4
+lwp,_lwp_setname,2,base,4
+lwp,_lwp_getname,2,base,4
+light weight process,_lwp_create,2,base,5
+light weight process,_lwp_detach,2,base,4
+light weight process,_lwp_self,2,base,4
+light weight process,_lwp_wait,2,base,4
+light weight process,_lwp_exit,2,base,5
+light weight process,_lwp_kill,2,base,5
+light weight process,pthread,3,base,3
+light weight process,kthread_create,9,base,3
+light weight process,got-config,1,pkg,0
+gethostbyname,gethostbyname,3,base,5
+gethostbyname,route,8,base,2
+gethostbyname,htonl,3,base,2
+gethostbyname,hosts,5,base,3
+gethostbyname,hostname,7,base,4
+gethostbyname,rexec,3,base,0
+gethostbyname,rcmd,3,base,0
+gethostbyname,bt_gethostbyname,3,base,5
+gethostbyname,getaddrinfo,3,base,5
+gethostbyname,resolv.conf,5,base,4
+gethostbyname,nsswitch.conf,5,base,3
+gethostbyname,krb5_get_default_principal,3,base,0
+gethostbyname,Xserver,1,base,0
+gethostbyname,bootptab,5,base,1
+lua,lua,1,base,5
+lua,lua,4,base,5
+lua,luac,1,base,5
+lua,luactl,8,base,4
+lua,intro,3lua,base,5
+lua,url,4,base,0
+lua,axe,4,base,0
+uname,uname,3,base,5
+uname,uname,1,base,5
+uname,installboot,8,base,1
+uname,crunchgen,1,base,1
+uname,machine,1,base,4
+uname,mandoc,1,base,1
+uname,platform,n,pkg,4
+uname,find,1,base,1
+uname,symlink,7,base,1
+get system information,uname,1,base,5
+get system information,uname,2,base,5
+get system information,crontab,1,base,0
+get system information,scsi,0,base,0
+get system information,sysctl,7,base,3
+get system information,siginfo,2,base,0
+get system information,dumpfs,8,base,0
+get system information,userinfo,8,base,3
+get system information,groupinfo,8,base,3
+get system information,rpcinfo,8,base,0
+get system information,mount,8,base,0
+get system information,tzset,3,base,0
+get system information,pac,8,base,0
+get system information,locale,1,base,2
+sh,sh,1,base,5
+sh,atf-sh,1,base,1
+sh,MAKEDEV,8,base,0
+sh,chroot,8,base,1
+sh,tip,1,base,1
+sh,csh,1,base,5
+sh,true,1,base,0
+sh,false,1,base,0
+sh,mandoc,1,base,0
+iwm,iwm,4,base,5
+ifconfig,ifconfig,8,base,5
+ifconfig,ifconfig.if,5,base,5
+ifconfig,awi,4,base,1
+ifconfig,vax/ix,4,base,1
+ifconfig,xge,4,base,1
+configure network interfaces,ifconfig,8,base,5
+configure network interfaces,brconfig,8,base,3
+configure network interfaces,ifmedia,4,base,4
+configure network interfaces,dhclient-script,8,base,4
+configure network interfaces,netstat,1,base,1
+configure network interfaces,ldpd.conf,5,base,0
+configure network interfaces,dhcpcd.conf,5,base,4
+configure network interfaces,amd.conf,5,base,0
+configure network interfaces,krb5.conf,5,base,0
+configure network interfaces,pppoe,4,base,3
+configure network interfaces,tcpdump,8,base,0
+configure network interfaces,rc.conf,5,base,4
+service,service,8,base,5
+service,services,5,base,5
+service,nfssvc,2,base,3
+service,calendar,1,base,3
+service,getservent,3,base,4
+service,i386/bios32_service,9,base,1
+service,isns,3,base,1
+service,services_mkdb,8,base,4
+service,ses,4,base,1
+service,iscsi-target,8,base,1
+service,sdpquery,1,base,3
+service,pam_sm_open_session,3,base,1
+service,sdpd,8,base,2
+service,sdp_open,3,base,3
+service,gcc,1,base,0
+service,git-config,1,pkg,0
+service,perlguts,1,pkg,0
+service,PCRE,3,pkg,0
+cron,cron,8,base,5
+cron,crontab,5,base,5
+cron,crontab,1,base,5
+cron,atrun,8,base,4
+cron,ntpdate,8,base,0
+cron,ac,8,base,0
+cron,syslog,3lua,base,0
+cron,newbtconf,8,base,0
+strtok_r,strtok,3,base,5
+strtok_r,strtok_r,3,base,5
+strtok_r,wcstok,3,base,4
+cvs,cvs,5,base,5
+cvs,cvs,1,base,5
+wtf,wtf,6,base,5
+atf
+"options diagnostic"
+test
+ls
+strlcpy
+nslookup
+dns
+lam
+network
+filesystem
+pie
+netstat
+pipe
+makemandb
+Lock
+ls
+ps
+"add user"
+npf
+dhcpcd.conf
+dhcpcd
+dhcp
+dhcpcd
+dhcp
+aio
+getpwent
+getrusage
+getload
+apropos
+ls
+ls
+apropos
+"int to char"
+ls
+common
+getopt
+cgd
+dmidecode
+man
+asdasdas
+fstat
+hwinfo
+dmidecode
+socket
+bus_space
+rsync
+gdb
+gcc
+qzvqrpbqr
+qzvqrpbqr
+dmidecode
+dmidecode
+dmidecode
+dmidecode
+dmidecode
+ls
+gpio
+alloc
+dmidecode
+pf.conf
+dmidecode
+qzvqrpbqr
+dmidecode
+uridecode
+dmidecode
+plist
+blacklist
+clang
+netstat
+"list processes"
+dmidecode
+dmidecode
+dmidecode
+dmidecode
+dmidecode
+bspwm
+strchrnul
+strchrnul
+dmidecode
+math
+cpuctl
+man
+realtek
+realtek
+pci
+chroot
+pci
+ls
+pslist
+pslist
+dmidecode
+psref
+curl
+fipscheck
+top
+zdump
+lua
+dmidecode
+ls
+count
+dmidecode
+dmidecode
+apache
+apache
+apache
+bright
+wapbl
+wapbl
+linux
+signal
+signal
+getaddrinfo
+inetpton
+inet_pton
+inet_ntop
+inet_ntop
+inet_ntop
+inet_ntop
+config_search
+config
+dmidecode
+debugger
+expect
+ls
+expect
+ls
+errno
+apropos
+"kill process"
+"niels provos"
+uvm
+nbinclude
+gcc
+evbmips
+dmidecode
+dmidecode
+iic
+npfctl
+apropos
+ls
+column
+column
+fork
+libelf
+ipf
+who
+ipf
+ipsecctl
+column
+ls
+libelf
+ls
+tlp
+"add new user"
+"list files"
+hier
+getextattr
+perl
+dhcpcd
+bind
+sed
+rc.conf
+cat
+cat
+cat
+cat
+printer
+splash
+ls
+ls
+cat
+"add group"
+"add user"
+"add user"
+"add new user"
+"show processes"
+sigaltstack
+AT_CANARY
+cat
+cat
+ps
+password
+username
+ral
+sh
+list
+list
+vi
+abhinav
+student
+awk
+Htop
+htop
+spoj
+Man
+Auto
+Grep
+tlist
+kqueue
+"Delhi Earthquake"
+"who are you"
+"Who are you"
+time
+ls
+lsl
+lsljnn
+"terminate a process"
+audiocfg
+printf
+ps
+ls
+ls
+ls
+"terminate process"
+ls
+align
+"macro is useful"
+"""macro is useful"""
+bus_space
+ipmi
+fork
+perl
+Lua
+fork
+fork
+cat
+kmem
+cat
+fuck
+hell
+ls
+cat
+apropos
+xman
+xdm
+security
+apropes
+perl
+feetch
+git
+git
+swift
+hello
+man
+cp
+ssh
+tex
+rm
+man
+ls
+free
+"free -m"
+"man -k"
+"man -k"
+free
+"man free"
+"man free"
+-
+"man find"
+find
+unix
+love
+"unix command"
+"man -"
+"man -k"
+"man -kkk-"
+"map -kasdk-"
+"man asdkj"
+scpy
+scpy
+btrt
+braj
+braj
+ls
+net
+df
+"list files"
+doran
+hdhgf
+fork
+crontab
+fstab
+index
+system
+dmidecode
+dmi
+wm(4)
+pthread_getcpuclockid
+clock_getcpuclockid
+ls
+apropos
+"add new user"
+"add wifi connection"
+"add wifi"
+"add wlan"
+"add wireless connection"
+"configure wireless"
+sigkill
+sigkill
+sem_open
+mk.conf
+Http
+dmidecode
+"add user"
+"list files"
+"copy files"
+"generate termcap database"
+" termcap database"
+"create socket"
+"terminate process"
+"search man pages"
+"search man pages"
+"make directry"
+less
+grep
+awk
+sed
+ls
+mkfifo
+"create socket"
+ls
+"create socket"
+ls
+sudo
+pid
+malloc
+bash
+ls
+Nani
+nano
+tar
+vax
+ls
+"make directry"
+"date range"
+"copy files"
+spiped
+select
+spiped
+select
+ls
+select
+select
+opengl
+intro
+files
+intro
+Rest
+ttt
+hyd
+mirror
+mel
+meld
+ll
+help
+ls
+dir
+wpa
+wpa_supplicant
+ls
+"search word in a file"
+grep
+man
+xjvf
+kill
+ls
+filedesc
+ls
+ln
+ln
+ls
+vfs
+man
+cat
+"over the complete"
+mount
+ftp
+grep
+"list files"
+inotify
+notify
+proxy
+panic
+"add new user"
+tls
+"make directory"
+"show processes"
+"make directory"
+"make directory"
+cat
+pledge
+goto
+ntpd
+"cat "
+"cat "
+ls
+"remove files"
+ralink
+realtek
+realtek
+realtek
+realtek
+atheros
+ls
+ls
+realtek
+the
+an
+"ip rule"
+kqueue
+futex
+fread
+"find file"
+lvm
+shutdown
+cat
+"create socket"
+an
+cp
+walk
+cc
+ls
+Top
+ping
+realtek
+realtek
+an
+stat
+crypt
+crypt
+bcrypt
+bcrypt
+mcrypt
+lua
+ls
+man
+ls
+ls
+Ls
+Secret
+Game
+dmidecode
+dmi
+open
+sndio
+sndio
+stdio
+sndio
++sndio
+sndiod
+ls
+declare
+find
+netpgp
+malloc
+rc.conf
+denuvo
+ls
+ls
+fsck
+awk
+Mayb
+Math
+defiance
+Top
+apropos
+ls
+man
+ls
+snobol
+tmg
+writev
+sprintf
+"temporary files"
+"list files"
+ls
+Man
+"list files"
+ls
+ls
+Cat
+theo
+apropos
+tunefs
+troff
+Logger
+grep
+which
+tidy
+ls
+htop
+ls
+cat
+fopen
+"list files"
+curl
+ls
+ksh
+emacs
+"create socket"
+ls
+an
+gcc
+man
+baby
+ls
+SIGPIPE
+strlen
+apropos
+swimsuit
+ping
+killall
+pthread
+ps
+apropos
+find
+"navigate directories"
+"navigate directories"
+"navigate directories"
+navigate
+navigate
+"list directories"
+longjmp
+"kmnm
+Search
+lsblk
+filesystem
+filesystem
+open
+Rc.conf
+man
+ls
+Cut
+jq
+jq
+ls
+htop
+ip
+ls
+curl
+curl
+curl
+ls
+ls
+"List sockets"
+gl
+memcpy
+Ls
+apropos
+man
+"List files"
+ddb
+ls
+socket
+ls
+pwd
+cwd
+pwd
+cd
+ls
+apropos
+gcc
+gcc
+gcc
+CONNECTION_TYPE
+node
+SIOC
+Ping
+file
+bash
+"list files"
+lspci
+Find
+grap
+grep
+ls
+push
+list
+lisaccept
+accept
+ls
+cowsay
+cowsay
+du
+splice
+slice
+ls
+sigill
+"list files"
+epoll
+Ps
+ks
+ls
+ls
+Awk
+Git
+Awk
+dmesg
+"Dmesg "
+kqueue
+find
+netmap
+pf
+apropos
+apropos
+ls
+slocal
+ls
+Setenv
+dth
+Ls
+Ln
+env
+ls
+realtek
+man
+bsd
+reboot
+Sudo
+Sqlite
+apropos
+ls
+realtek
+an
+Pf.conf
+ls
+grep
+npf
+ls
+man
+ls
+lsof
+lsof
+tr
+getopt
+vi
+find
+ifconfig
+perl
+man
+ls
+ls
+vim
+ex
+ls
+Lsusb
+ls
+Wget
+ls
+passwd
+cp
+strtok
+open
+proc
+ascii
+Fork
+grep
+grep
+Tom
+apropos
+ls
+Maths
+ls
+ps
+netstat
+ps
+recv
+god
+ifconfig
+ssh_config
+trace
+kqueue
+fopen
+test
+kmediod
+ls
+test
+Fork
+Lexer
+ls
+zfs
+ls
+ls
+tree
+signal
+Cut
+"remove file"
+"delete file"
+"concatenate files"
+Ls
+"ps -ef"
+man
+Ipconfig
+ls
+ipconfig
+Cpu
+pwd
+pwd
+Htop
+sed
+printf
+Apropos
+Netstat
+cat
+noop
+echo
+Ssh
+"make directry"
+Apropos
+grep
+head
+acpi
+Ls
+apropos
+emacs
+wasd
+kqueue
+ls
+test
+ls
+ld
+open
+open
+open
+setxkmod
+setxk*
+ls
+Cat
+ifconf
+ifconfig
+grep
+ls
+ls
+ls
+ps
+open
+ls
+vmstat
+find
+uname
+man
+radeon
+ls
+ginkgopolis
+apropos
+flip
+ls
+ls
+ls
+file
+apropos
+man
+ifconfig
+du
+grep
+localtime
+pkgsrc
+inotify
+pkg
+ls
+pkgsrc
+signal
+write
+Fused
+Fuser
+man
+qooxdoo
+qooxdoo
+intel
+grep
+ls
+Ls
+mmap
+pthread_create
+apropos
+apropos
+lsblkj
+lsblk
+lsblk
+ls
+wscons
+cat
+file
+netreport
+netstat
+vim
+man
+writev
+open
+socket
+Dmidecode
+Dd
+file
+curl
+awk
+awk
+man
+ls
+vim
+ls
+ls
+ls
+a
+Ls
+history
+ssh
+man
+apt-get
+sysinfo
+fstat
+cd
+setlocale
+RTL8188EUS
+rtl8188cus
+file
+git
+file
+ls
+ls
+pppd
+poptop
+poptop
+vi
+man
+ls
+"draw border"
+Ls
+bontekoe
+man
+"list files"
+list
+man
+remove
+ls
+ls
+Cat
+Kqueue
+"find files"
+df
+write
+"list files"
+"man string"
+string
+stdio
+vi
+cat
+"list files"
+apache
+smtpd
+smtpd.conf
+mount
+an
+dtv
+"to see inode"
+"list files"
+search
+"search stdin"
+Grep
+ls
+ls
+List
+ls
+apropos
+ps
+tail
+man
+antlr
+ssh
+sleep
+fdisk
+rev
+df
+crontab
+Ls
+ps
+grep
+apropos
+asdf
+linux
+awk
+Boot
+Boot
+ssl
+rndio
+fish
+cut
+strcpy
+ethtool
+ethtool
+"query network "
+"query network driver"
+"query network settings"
+"network settings"
+"list connected devices"
+"list connected disks"
+ls
+vi
+"getting touched"
+"make directry"
+"create socket"
+ls
+nslookup
+Oracle
+apropos
+ls
+ls
+usb
+ls
+crontab
+crontab
+list
+man
+wm
+pfctl
+npf
+google
+mkfs
+mkramimg
+curl
+mkramfs
+curl
+mkdir
+top
+curl
+curl
+pidof
+chmod
+good
+netstat
+ls
+"list file"
+"list files"
+find
+glep
+perform
+ls
+c++
+find
+ls
+resume
+open
+grep
+apropos
+Man
+a
+nano
+nan
+nc
+netcat
+bozohttpd
+an
+apropos
+bash
+test
+unix
+kevent
+ls
+sasl
+kociel
+kociel
+zoulas
+man
+dir
+man-k
+man
+tcpdump
+flep
+ls
+stat
+find
+usb
+l
+wc
+select
+pivot
+ssh
+conf.d
+foo
+socket
+grep
+make
+gcc
+gcc
+"Image block"
+bsd
+ls
+ls
+useradd
+"file system"
+man
+bsd
+"Dns setting "
+Grep
+emacs
+emacs
+mkdir
+mv
+ps
+df
+scp
+tree
+egrep
+go
+urandom
+/dev/random
+ls
+a
+complete
+Queue
+Queue(3)
+queue(3)
+queue.h
+bsd
+ipconfig
+ls
+nc
+calculator
+ls
+ls
+fork
+print
+ls
+"create socket"
+Last
+ls
+ls
+regex
+Uptime
+mandoc
+mandoc
+finger
+crack
+tcp
+tcpdump
+"make directry"
+arc4random
+"search man pages"
+awk
+man
+ipfw
+ipfw
+ipfw
+fsync
+sched
+sched
+sched()
+sched
+sched
+scrot
+lsschot
+scrot
+ls
+Netbsd
+netbsd
+route
+which
+grep
+teamd-conf
+teamd.conf
+man
+"Count of lines"
+"search man pages"
+"count of lines"
+"count of lines"
+"list files"
+directory
+ls
+tmux
+df
+ls
+ls
+cat
+xranr
+xrand
+xrandx
+echo
+zezima
+zezima
+gnu
+proprietary
+shopt
+fsck
+sockaddr
+sockaddr
+cp
+cp
+cp
+unix
+dd
+php
+Zork
+zork
+zork
+man
+ls
+apropos
+ls
+ncurses
+curses
+la
+find
+uefi
+initrd
+man
+open
+mkdir
+--uid
+grep
+"make directry"
+df
+df
+"make directry"
+"make directry"
+"make directry"
+"make directry"
+"make directry"
+"make directry"
+"make directry"
+"make directry"
+srm
+secure-delete
+find
+dig
+die
+"list files"
+"make directry"
+pkg_rolling-replace
+clnag
+clang
+man
+Dd
+"make directry"
+test
+"make directry"
+"make directry"
+buff
+bashrc
+insicure
+-l
+conditionnal
+" CONDITIONAL EXPRESSIONS"
+dnf
+dnf
+cp
+"Search man page"
+"Search man page"
+Whois
+ls
+browse
+"make directry"
+"list files"
+pci
+"make directry"
+samba
+vim
+appropos
+test
+test
+tar
+"make directry"
+Bash
+ls
+"remove files"
+"list files"
+"list files"
+"list files"
+rsync
+"count lines "
+"count lines "
+ls
+apropos
+man
+"make directry"
+ls
+ls
+user
+user
+doas
+doas
+foo
+pthread
+printf
+pthread
+TCP_CORK
+TCP_CORK
+tcp
+test
+heisann
+fork
+realloc
+"Sort numeric"
+"sort numeric"
+openvt
+openvt
+cat
+man
+regex
+lsmod
+Dpkg
+"replace tab with comma"
+"replace tab for comma"
+tab
+arp
+Grep
+man
+ls
+cat
+sbrk
+dc
+limit
+pf
+"create socket"
+"make directry"
+Ifconfig
+grep
+"list files"
+ls
+sed
+find
+"find files by date"
+" list files by date"
+find
+cat
+Syslog
+list
+enma
+test
+atop
+vm
+dom0
+motd
+ls
+snap
+"ls -l"
+"remove symlinks"
+"open port"
+find
+"ls -l"
+linux
+fopen
+fopen(3)
+read
+download
+"sed show match"
+"make directry"
+chmod
+checksum
+bash
+pid
+Snmp
+grep
+"web server"
+cuda
+cuda
+"list files"
+ranger
+ls
+date
+uint32_t
+bongos
+lxc-start
+vim
+iwi
+iwn
+fond
+xev
+nmap
+ls
+tab
+expand
+vim
+mg
+mq
+man
+man
+netb
+awk
+cc
+ls
+nmap
+pmap
+dir
+whois
+ls
+cd
+c
+ls
+ls
+ls
+fork
+path_max
+name_max
+vnode
+vnode
+ls
+csgo
+firefox
+ls
+ifconfig
+ifconfig
+ip
+vfs
+man
+haddok
+ls
+Ls
+Ls
+"Create socket"
+Urtwn
+vfs
+Vnodeops
+alias
+tmux
+tmux
+gpac
+gpac
+sox
+ls
+"make directry"
+ls
+"atheros "
+vfs
+Ls
+"add user"
+pci
+"socket udp"
+cnst
+cnst
+uquad_t
+uquad_max
+fork
+clone
+envsys
+cp
+grep
+egrep
+git-clone
+aa_autoinitkbd
+aa_autoinitkbd
+%s
+ls
+psql
+vfs
+"udp server"
+"udp client"
+udp
+ls
+style
+autoreconf
+Iwm
+elantech
+config
+curl
+ps
+sed
+egrep
+xargs
+sed
+creating
+ls
+test
+fdisk
+tar
+compress
+ls
+bozohttpd
+cat
+vi
+chmod
+apt
+apt
+ls
+calendar
+man
+sctp
+sctp
+hammer
+swapcache
+ls
+cp
+gnome
+gtk
+sold
+curl
+libcurl
+free
+calloc
+declare
+d
+d
+sbrk
+ls
+ntp
+u3g
+pledge
+hostname
+ls
+freebsd
+"make directry"
+man
+apropos
+intro
+grep
+sbrk
+apropos
+sbrk
+sbrk
+vop_reclaim
+vfs
+sar
+df
+zfs
+stress
+ls
+stress
+man
+man
+man
+ff
+fork
+man
+man
+pledge
+gpt
+ls
+"copy fies"
+"copy files"
+apropos
+azalp
+babao
+ls
+toor
+apropos
+installboot
+lsof
+filesystems
+halt
+"remove package"
+"uninstall package"
+diff
+"dri output"
+/dev/dri
+ifconfig
+redshift
+ps
+ps
+ls
+grep
+snmp
+snmp
+df
+ls
+"format disk"
+"list files"
+"change shell"
+"change shell"
+"change login shell"
+"make directry"
+ls
+"list files"
+basename
+sem_open
+ls
+lockstat
+diff
+sort
+apropos
+wget
+wget
+cat
+"open socket"
+"list files"
+"generate ssh key"
+"longest line in a file"
+ifconfig
+usb
+ls
+ls
+dump
+dtrace
+"change login shell"
+kernel
+kernel
+ls
+list
+arc4ranom
+fgetln
+sbrk
+TCP_CORK
+man
+mandoc
+"find all files in directory"
+ls
+ls
+ls
+sed
+ip
+fcntl
+pathbuf_create
+namei
+relookup
+"find all files in directory"
+ls
+kernel
+"default shell"
+/usr/tests
+"write tests"
+"ufs tests"
+ntp.keys
+"sh unicode"
+uio
+seek
+offset
+ktrgenio
+ktr_genio
+tar
+filedesc
+lua
+man
+sections
+devices
+lua
+find
+"mount img"
+"mount loop"
+"mount loop image"
+"mount loop image file system"
+"mount loop file system"
+vndconfig
+"find all files in directory"
+ls
+sbrk
+sbrk
+sbrk
+"list files"
+ls
+ls
+man
+man
+man
+"what is wedge"
+wedge
+"what is wdge"
+"what is wedge"
+strtok
+strcspn
+"find wedge"
+ls
+Top
+sbrk
+sbrk
+intel
+"intel xf86"
+"intel xf86"
+xf86
+"video intel"
+afterboot
+intel
+"intel video"
+find
+find
+find
+"search man pages"
+"create socket"
+"make directry"
+"file reference count"
+"file reference count"
+"file descriptor reference count"
+"kernel file  reference count"
+"kernel file structure"
+ifconfig
+"copy files"
+"copy files"
+ntp.conf
+ntp.conf
+vrele
+"find all files in directory"
+pathbuf
+vnode
+vnode_t
+kauth_cred
+kauth_cred_t
+kauth_cred_get
+Test
+Pwd
+nochroot
+namei
+Sdl
+dhcpcd
+strcpy
+strcspn
+strcspn
+hammer
+hammer
+strcspn
+socket
+"socket 9"
+"disable ipv6"
+"disable ipv6"
+"disable ipv6"
+sockets
+Intro
+"install docs"
+"disable ipv6"
+install
+socreate
+kauth
+vnode
+vnodeops
+vnode
+namei
+acpi
+acron
+list
+perl
+"ipv6 record"
+"ipv6 /etc/hosts.allow"
+strings
+"search man pages"
+"create socket"
+"make directry"
+sshd_config
+"create socket"
+vn_open
+vfs
+vnode
+pathname
+sbrk
+sbrk
+mount
+sbrk
+sbrk
+find
+gpart
+gpt
+lenovo
+sbrk
+"make directy"
+"make directry"
+"find files"
+socket
+afterboot
+soo
+soo_read
+socreate
+socket
+nvidia
+sbrk
+Getopt
+Grep
+Pthread_kill
+Malloc
+Stroull
+Strtoull
+Strtoull
+Strtoul
+getopt
+Pthread_kill
+find
+find
+screen
+mq_send
+sbrk
+nm
+"make directory"
+"find  a file"
+"find  a file by extension"
+sbrk
+"dynamic version"
+"shared library version"
+"ELF "
+sed
+w3m
+ls
+"static library"
+"shared library"
+ldcondif
+"shell history"
+HISTFILE
+"sh history"
+ksh
+"HISTFILE "
+"shell HISTFILE"
+"shell HISTFILE"
+"shell HISTFILE"
+"shell HISTFILE"
+"sh history"
+"shell HISTFILE"
+"shell HISTFILE"
+mdoc
+ksh
+"virtual memory"
+saml
+Auth
+chmod
+sbrk
+sbrk
+sailor
+fts
+boot
+"find bad sectors"
+"disk bad sectors"
+"find all files in directory"
+"shell loop"
+ls
+"make directry"
+"make directry"
+"make "
+class
+class
+man
+man
+"bootable usb"
+bwi
+ext4
+ext2
+ffs
+ufs
+ls
+man
+dmidecode
+man
+ls
+vmap
+vmmap
+mmap
+vmmap
+vmap
+ftp
+"can bus"
+"cam bus"
+"hash table"
+"hash table"
+vfs
+"add user"
+v_usecount
+sbrk
+kqueue
+"bootable usb"
+ls
+mincore
+mask
+unmask
+delta
+"struct emul"
+sy_invoke
+fd_open
+bwi
+ctfmerge
+Socketvar
+sobind
+tmux
+pthread_cond_wait
+grep
+mount
+makefs
+bufcache
+buffercache
+RTL8191
+8191
+ndis
+nm
+ls
+tetris
+uname
+uname
+"open socke"
+"open socket"
+kthread
+intro(9)
+qsort
+cp
+cp(1)
+ls
+httpd
+lua
+intro
+nc
+nc(1)
+makemandb
+ed
+pip
+systemd
+sysvinit
+init
+Flock
+Flock
+socket
+bc
+poll
+create
+tee
+linux
+open
+sysctl
+Chmod
+getopt
+install
+socket
+"Find file"
+search
+free
+httpd
+ls
+read
+pthread
+mmap
+ext
+ls
+test
+Bash
+audicfg
+audiocfg
+netquery
+fopen
+who
+rsync
+open
+strace
+dtrace
+host
+wiconfig
+interf
+dig
+ssh
+tmux
+ls
+ls
+prop_dictionary
+prop_array
+man
+awk
+ed
+tmux
+msh
+mksh
+mc
+nc
+"List files"
+pf
+gcc
+SSL_CTX_set_options
+ls
+man
+awk
+netbsd
+npf
+vnode
+vnode
+gem
+gem
+gem
+"print unix time to date "
+"unix time to date "
+err
+unlink
+tree
+touch
+touch
+ral
+"show utf characters"
+"show special characters"
+"show non ascii characters"
+non-ascii
+nonascii
+utf
+hook
+pserialize
+pserialize(9)
+pserialize
+pserialize
+pserialize
+pserialize
+pserialize
+"get directories"
+time_uptime
+stat
+SIMPLEQ_FOREACH
+"create socket"
+"search man pages"
+"search man pages"
+fd_open
+signal
+"search man pages"
+test
+sticky
+"search man pages"
+"create socket"
+tar
+make
+ssh
+env
+afterboot
+fsocreate
+socreate
+proplib
+blacklistd
+ls
+lll
+"list devices"
+"search man pages"
+"disk bad sectors"
+Ioctl
+drm
+"drm history"
+mtree
+rc.conf
+"search man pages"
+birthday
+file
+"compare and swap"
+mkdir
+error
+error
+error
+chattr
+lsattr
+lsmod
+ls
+"errno 22"
+"errno 22"
+"create socket"
+"errno 22"
+audioplay
+"how to use rump"
+ssh-keygen
+ftp
+iic
+"ftp server"
+RTL8188
+8188
+realtek
+"search man pages"
+man
+ls
+newfs
+acpi
+acpi
+"search man pages"
+resolver
+"resolver 3"
+resolver
+resolver
+"resolver "
+"resolver "
+resolver
+"resolver "
+who
+ls
+blacklistd
+grep
+file
+ls
+ne
+wdx
+bicc
+"lvm2 msupdate"
+msupdate
+"lvm2 update"
+lvm2
+dmsetup
+man.conf
+resolver
+mdsetup
+mdsetup
+lvm2
+dmsetuo
+dmsetup
+snprintf
+fnmatch
+snprintf
+snprintf
+man
+"search man pages"
+xargs
+"find all files in directory"
+snprintf
+snprintf
+snprintf
+adt7466
+rasizes
+snprintf
+grep
+abor
+pf.conf
+touch
+vi
+mmedia
+re_syntax
+pcreunicode
+key_npagenext
+re_syntax
+re_syntax
+sighandler
+re_syntax
+xbox
+xbox
+words
+ls
+sysctl
+"make directry"
+"make directry"
+"create socket"
+internet
+re_syntax
+List
+ping
+rm
+permission
+"search man pages"
+read
+"create socket"
+dart
+man
+elf_flagdata
+gelf_newphdr
+tar
+gpio
+"search man pages"
+screwd
+cp
+cd
+evrpc
+"search man pages"
+"search man pages"
+uniq
+EFBIG
+sort
+head
+iwi
+iwi
+evrpc
+man
+"search man pages"
+evrpc
+evrpc
+chmod
+ls
+man
+"search man pages"
+evrpc
+evrpc
+tr
+"search man pages"
+"create socket"
+evrpc
+evrpc
+evrpc
+evrpc
+evrpc
+"search man pages"
+tr
+wiconfig
+iwi
+iwi
+netintro
+iwi
+"search man pages"
+"create socket"
+swapctl
+make
+scp
+ip
+"not in"
+not
+shuffle
+shuf
+uniq
+evrpc
+kthread_create
+grep
+man
+"search man pages"
+zip
+"zip rename"
+"rename zip"
+"search man pages"
+"create socket"
+"search man pages"
+"find all files in directory"
+man
+evrpc
+man
+evrpc
+man
+"search man pages"
+mt
+mt
+ls
+mt
+kthread_create
+chown
+nc
+netcat
+netcat
+nc
+"search man pages"
+mt
+pip
+pip
+ls
+"linked list"
+cron
+"install packages"
+scp
+ed
+"search man pages"
+"create socket"
+acpi
+du
+uniq
+du
+uniq
+uniq
+uniq
+uniq
+uniq
+sort
+fmt
+cd
+wctomb
+df
+vim
+cp
+cat
+acpi
+siginterrupt
+su
+cd
+ls
+siginterrupt
+"get file system information"
+siginterrupt
+cd
+cp
+tar
+siginterrupt
+"create socket"
+ack
+"search man pages"
+google
+ssh-agent
+"create socket"
+ls
+grep
+"stop raidctl reconstruct"
+"raidctl reconstruct"
+"raidctl "
+rump
+ki
+"raidctl "
+intelfb
+genfb
+wscons
+gcc
+hmac
+"create socket"
+"find all files in directory"
+dig
+"per process file limit"
+"per process file descriptor"
+cp
+top
+"search man pages"
+sh
+sed
+"create socket"
+apropos
+libarchive
+"df -f"
+"df -h"
+"create socket"
+nmap
+"make directry"
+"search man pages"
+Framebuffer
+OpenSSL
+RT5370
+"search man pages"
+chio
+jot
+"search man pages"
+"create socket"
+flag
+kms
+kms
+"find all files in directory"
+alias
+"edit dk wedge name"
+"dk wedge name"
+re
+synclient
+synaptic
+"search man pages"
+"create socket"
+"dk wedge name"
+strcasecmp
+strcasecmp
+strcasecmp
+chown
+strcasecmp_l
+strcasecmp_l
+wcscasecmp
+ls
+kthread_create
+printf
+dvc
+dc
+strcasecmp
+strcasecmp
+strings
+"strings functions"
+"strings functions"
+pserialize
+lsof
+ls
+mkfs
+ffs
+ffsv1
+diff
+alarm
+echo
+file
+readdir
+readdir
+"search man pages"
+afterboot
+ksh
+rc.conf
+sh
+ed
+ls
+"add user"
+scsictl
+cron
+"copy files"
+fdisk
+disks
+rc.local
+ksh
+sh
+sh
+kthread_create
+kmutex
+mutex
+"copy strings"
+date
+"list files"
+scp
+zoola
+tcp
+linux
+linux
+top
+apropos
+"copy files"
+usbhid
+jo
+joy
+fetch
+fetch
+fetchMakeURL
+fetch
+find
+"search man pages"
+"create socket"
+"create socket"
+fetch
+SET
+"copy files"
+rm
+tuch
+touch
+tinc
+tinc
+"create socket"
+kthreads
+"list files"
+"list directory contents"
+"add user"
+optind
+hostapd
+"find all files in directory"
+zip
+libdrm
+ls
+vi
+gre
+grep
+"create socket"
+kqueue
+fcntl
+file
+fileops
+crunchgen
+crunchgen
+sort
+man
+"list files"
+"create socket"
+"create socket"
+"search man pages"
+ls
+cut
+mtab
+"create socket"
+bhyve
+foo
+foo
+bar
+vge
+ti
+re
+mount_umap
+__dead
+dead
+__pure
+nfsmb
+mfi
+viaide
+pciide
+"install new software"
+"search man pages"
+softintr_schedule
+softintr
+"install new packages"
+"install new packages"
+pkgsrc
+kms
+stty
+"create socket"
+"search man pages"
+progress
+mk.conf
+date
+fstatat
+xxd
+sntp
+intltool-extrac
+ps
+"list processes"
+"create process"
+setpgid
+"add new user"
+"search man pages"
+drm
+"copy files"
+merge
+"create directory"
+creat
+emacs
+git-clean
+"kernel sort"
+"in kernel sort"
+sort
+CTASSERT
+__CTASSERT
+ctassert
+assert
+_ctassert
+"search man pages"
+"search man pages"
+"create socket"
+"search man pages"
+sh
+VNODEOPS
+"search man pages"
+module.h
+sys/module.h
+phthread
+thread
+dlfcn
+dlopen
+"find all files in directory"
+kthread_create
+ls
+tee
+"man -k"
+virecover
+lua
+clock
+kthread_create
+acpi
+atheros
+kthread_create
+"search man pages"
+ls
+cron
+ls
+ifconfig
+mount_null\
+mount_null
+poll
+pollts
+kqueue
+pread
+recv
+mtree
+tic
+ls
+look
+skc
+skc
+re
+msk
+mskc
+sk
+bge
+stg
+stge
+kms
+irdaattach
+sab
+grotty
+cdb
+file
+unix
+getpeername
+getifaddrs
+local
+pipe
+discard
+pipe
+vmstat
+sysstat
+mfs
+mount_mfs
+top
+fts
+ftw
+fts
+glob
+re_syntax
+re_format
+strpct
+ichsmb
+howmany
+amdpm
+mf
+open_memstream
+getdelim
+pthread_barrierattr
+hardclock
+profhz
+cron
+atrm
+tr
+ftime
+ftime
+time
+nanotime
+ftime
+time
+ping
+rdisc
+ipsend
+memcpy
+fprintf
+fprintf
+stdlib.h
+stdlib.h
+size_t
+stddef.h
+systm.h
+sys/systm.h
+system
+systm
+fprintf
+fprintf
+printf
+"create socket"
+"change password"
+ls
+"change shell"
+chsh
+remove
+"remove user account"
+"delete user account"
+"remove user"
+tempnam
+"create temporary file"
+"unmount a file system"
+"unmount a filesystem"
+"create a filesystem"
+"check filesystem for errors"
+"create new directory"
+tcgetsid
+ps
+"show processes"
+"show processes status"
+"search man pages"
+"create socket"
+fingerd
+afterboot
+"search man pages"
+cd
+"find all files in directory"
+klua_mod_register
+klua_mod
+klua_
+lua
+module.h
+kthread
+pthread_self
+"calling ID"
+lwp
+_lwp_self
+kthread.h
+kthread
+lwp_self
+self
+"lwp self"
+lwp
+ktrhead
+kthread
+curlwp
+kthread_create
+pthread_create
+curlwp
+curlwp
+"close a file"
+FILE_UNUSE
+FILE_UNUSE
+"open socket"
+ifconfig
+blacklistctl
+"create socket"
+"search man pages"
+libedit
